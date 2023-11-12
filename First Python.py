@@ -1,3 +1,3 @@
-surname =input('Введите фамилию:')
-print('Ваша фамилия - ')
-print(surname)
+name =input('Введите имя:')
+print('Ваше имя - ')
+print(name)
