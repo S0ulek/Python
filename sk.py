@@ -11,10 +11,7 @@
 #print(b, g, r+g+b, b, g + b,)
 
 
-#Что нужно сделать
-# Создайте две переменные с именами «Первое животное» и «Второе животное» на английском языке. 
-# Запишите в первую переменную слово «Заяц», а во вторую — «Черепаха». 
-# Используя эти переменные, выведите на экран текст «Заяц спит, Черепаха идёт» в одну строку
+
 
 
 #firstanimal ="bunny"
@@ -32,27 +29,113 @@
 #print(intro,"\n",info)
 
 
-# Что нужно сделать
-# Напишите программу для сервиса заказа билетов,
-# которая запрашивает у пользователя город вылета и город прилёта. 
-# Затем выведите их в одну строку через тире. 
-# Обратите внимание на свои переменные: названия должны отражать содержимое.
 
 
-fly = input("введите город вылета:")
-arrival = input("введите город прилета:")
-print (fly,"-" ,arrival)
 
-pep = "pepka osujdaet"
+#fly = input("введите город вылета:")
+#arrival = input("введите город прилета:")
+#print (fly,"-" ,arrival)
 
-if fly == "baku":
-    print("примерное время полета 6 часов")
+#pep = "pepka osujdaet"
+
+#if fly == "baku":
+ #   print("примерное время полета 6 часов")
     
-elif fly == "moskva":
-    print("примерное время полета 20 часов" )
-else:
-    print(pep)
+#elif fly == "moskva":
+ #   print("примерное время полета 20 часов" )
+#else:
+ #   print(pep)
+
+
+
+#for data in range(2,9,3):
+ #   print(data)
+
+
+#count = 0
+
+#word = "hello pepa"
+
+#for i in word:
+ #   if i == "l":
+  #      count += 1
+
+    
+#print ("count" , count)
+
+#Ishascat = True
+
+#while Ishascat:
+ #   if input("Enter data: ") == "Stop":
+  #      Ishascat = False
+
+
+#for i in range(11):
+ #   if i == 5:
+  #      break
+
+   # if i % 2 == 0:
+    #    continue
+    
+   # print(i)
+
+
+#Found = None
+
+#for i in "hello":
+ #   if i == "l":
+  #      found = True
+   #     break
+#else:
+ #   found = False
+
+#print(found)          
+
+
+
+#nums = [5,7,2,4,7, True, "hello", 6.7,[5,7]]
+
+#nums[0]=50
+
+#nums[5] = 1.01
+#print (nums[-1][1])
+
+
+#numbers = [5,2,7]
+#e = [5,6,8]
+#numbers.append(100)
+#numbers.insert(1,True)
+#numbers.extend(e)
+#numbers.sort()
+#numbers.reverse()
+
+#numbers.pop(2)
+#numbers.remove(True)
+
+#numbers.clear()
 
 
 
 
+#print(len(numbers))
+
+#print(numbers.count(5))
+
+#nums = [5,2,7,"50", False]
+
+#for el in nums:
+ #   el*= 2
+  #  print(el)
+
+#n = int(input("Enter lenght: "))
+
+#user_list = []
+
+#i = 0
+
+#while i < n:
+ #   string = "Enter element #" + str(i + 1) + ": "
+  #  user_list.append(input(string))
+   # i += 1
+
+#print(user_list)    
