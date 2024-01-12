@@ -139,3 +139,19 @@
    # i += 1
 
 #print(user_list)    
+
+word = "itproger, hool, pepka"
+#print (word.count(""))
+
+
+#print(word.islower())
+
+#print(word.lower())
+
+#print(word.isupper())
+
+#print(word.capitalize())
+
+
+hobby = word.split(", ")
+print(hobby[1])
