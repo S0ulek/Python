@@ -154,4 +154,4 @@ word = "itproger, hool, pepka"
 
 
 hobby = word.split(", ")
-print(hobby[1])
+print(hobby[])
