@@ -4,17 +4,29 @@
 
 #input("enter password:")
 
-digit = 4.56665
-word = "loli"
+#digit = 4.56665
+#word = "loli"
 
-print(word,digit)
+#print(word,digit)
 
 
-number = 5
+#number = 5
 
-print("results:",number)
+#print("results:",number)
 
-del number
-number = 7
+#del number
+#number = 7
 
-print("results:",number)
+#print("results:",number)
+
+
+first_cube = int(input("Введите очки : "))
+second_cube = int(input("Введите очки : "))
+
+if first_cube >= second_cube:
+    print(first_cube - second_cube, "\nИгрок платит")
+
+else:
+    print(first_cube + second_cube, "\nВладелец платит")
+
+print("Игра окончена.")
