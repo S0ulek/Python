@@ -3,7 +3,7 @@ y = int(input("Движение лодки вверх/вниз:"))
 
 if x<y:
     print("Х меньше Y" )
-if x==y:
+elif x == y:
     print("X равен Y")
-if x>y:
+else:
     print("Х больше Y")
