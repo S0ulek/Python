@@ -7,5 +7,5 @@ if c < b:
 if c < a:
     c=a
 
-print(c)
+print("Максимально число:",(c))
   
