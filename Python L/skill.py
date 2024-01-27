@@ -48,16 +48,72 @@
 # Игрек равен 36
 
 
-x = int(input("Введите число :"))
+#x = int(input("Введите число :"))
 
-if x>0:
-    y = x -12
-    print(y)
+#if x>0:
+ #   y = x -12
+  #  print(y)
 
-elif x ==0:
-    y = 5
-    print(y)
+#elif x ==0:
+ #   y = 5
+  #  print(y)
 
-elif x<0:
-    y = x**2
-    print(y)
+#elif x<0:
+ #   y = x**2
+  #  print(y)
+
+
+#place = int(input("Введите место в списке :"))
+#point = int(input("Введите количество баллов : "))
+
+
+
+#if point >=290 and place <=10:
+ #   print("Поздравляю вы поступили!""\nБонусом вам будет начисляться стипендия")
+
+#elif point <290 and place <=10:
+ #   print("Поздравляю вы поступили""\nНо вам не будет начисляться стипендия")
+#else:
+ #   print("К сожалению вы не поступили")
+
+# rating = int(input('Что получил по математике? '))
+
+# if rating  ==2 or rating ==3:
+#     print('Плохо. Марш учиться!')
+
+# elif rating  ==4 or rating==5:
+#     print('Молодец! Можешь отдохнуть.')
+
+# first = int(input("Введите первое число :"))
+# second = int(input("Введите второе число :"))
+# third = int(input("Введите третье число :"))
+
+# if first == third == second :
+#     print(3)
+# elif first == second or second == third or third == first :
+#     print (2)
+# else:
+#     print(0)
+
+# price = int(input("Введите стоимость квартиры:"))
+# place = int(input("Введите кв :"))
+
+# if place >=100 and price <10000000:
+#     print(" Подходит")
+
+# elif  place >=80 and place <100 and price <7000000:
+#     print("Подходит")
+
+# else:
+#     print(" Не подходит ")    
+
+
+time = int(input("Введите желаемое время получения :"))
+
+if ( 14<= time <=15) or (10<= time <=12) or  (18<= time <=20)  or time <8 or time >=22: 
+    print (" polucit nelza")
+
+else:
+    print ("mojete polucit posilku")    
+
+   
