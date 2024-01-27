@@ -108,12 +108,30 @@
 #     print(" Не подходит ")    
 
 
-time = int(input("Введите желаемое время получения :"))
+# time = int(input("Введите желаемое время получения :"))
 
-if ( 14<= time <=15) or (10<= time <=12) or  (18<= time <=20)  or time <8 or time >=22: 
-    print (" polucit nelza")
+# if ( 14<= time <=15) or (10<= time <=12) or  (18<= time <=20)  or time <8 or time >=22: 
+#     print (" polucit nelza")
 
-else:
-    print ("mojete polucit posilku")    
+# else:
+#     print ("mojete polucit posilku")    
+
+
+# number =int(input('Введите число: '))
+# while number > 0:
+#     number = int(input('Введите число: '))
+#     total = int(input('Введите число: '))
+#     print ( number + total) 
+
+# print(number)
+
+
+number = int(input('Введите число: '))
+while number > 0:
+     number = int(input('Введите число: '))
+     total = number + number 
+     print ( total) 
+
+print(number)
 
    
