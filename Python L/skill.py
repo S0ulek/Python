@@ -126,12 +126,60 @@
 # print(number)
 
 
-number = int(input('Введите число: '))
-while number > 0:
-     number = int(input('Введите число: '))
-     total = number + number 
-     print ( total) 
+# number = int(input('Введите число: '))
+# while number > 0:
+#      number = int(input('Введите число: '))
+#      total = number + number 
+#      print ( total) 
 
-print(number)
+# print(number)
 
    
+
+# def func(a,b):
+#     res = a + b
+#     #print("Result",res)
+#     return res
+
+
+# res = func(5,7)    
+# print (res)
+# print("i","l")
+
+# def minimal(l):
+#     mini = l[0]
+#     for el in l:
+#         if el < mini:
+#             mini=el
+     
+#     print(mini)
+
+
+    
+
+# nums1 = [5, 7, 2, 9, 4]
+# minimal(nums1)
+
+# min = nums1[0]
+# for el in nums1:
+#      if el < min:
+#          min=el
+
+# print(min)        
+
+
+
+# nums1 = [5.4, 7.2, 2.3, 2.1, 9.4, 4.2]
+
+# min = nums1[0]
+# for el in nums1:
+#      if el < min:
+#          min=el
+
+# print(min)       
+
+func = lambda x,y: x * y
+
+res = func(8,9)
+
+print(res)
