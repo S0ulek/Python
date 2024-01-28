@@ -7,5 +7,5 @@ while number != 0:
         print("Обнаружен разрыв")
         break
     summ += last_num
-    number //= 10
+    
 print("Сумма", summ)
