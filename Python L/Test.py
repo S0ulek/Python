@@ -20,13 +20,25 @@
 #print("results:",number)
 
 
-first_cube = int(input("Введите очки : "))
-second_cube = int(input("Введите очки : "))
+#first_cube = int(input("Введите очки : "))
+#second_cube = int(input("Введите очки : "))
 
-if first_cube >= second_cube:
-    print(first_cube - second_cube, "\nИгрок платит")
+#if first_cube >= second_cube:
+ #   print(first_cube - second_cube, "\nИгрок платит")
 
-else:
-    print(first_cube + second_cube, "\nВладелец платит")
+#else:
+ #   print(first_cube + second_cube, "\nВладелец платит")
 
-print("Игра окончена.")
+#print("Игра окончена.")
+
+
+
+weather = int(input("Сколько градусов ? :"))
+step = 0
+while weather >15:
+    step+=20
+    weather -= 2
+    if weather <=15:
+     break
+    step+=10
+print("Пройдено шагов" ,step)
