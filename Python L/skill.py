@@ -178,8 +178,29 @@
 
 # print(min)       
 
-func = lambda x,y: x * y
+# func = lambda x,y: x * y
 
-res = func(8,9)
+# res = func(8,9)
+
+# print(res)
+
+# number = int(input("Введите число для проверки:"))
+# num = 0
+
+# while number >= 0:
+#     number = int(input("Введите число для проверки:"))
+#     num += 1
+#     if number <0:
+#         print(num,"\nОбнаружен минус")
+
+    
+    
+
+    
+        
+    
+    
+
+
 
 print(res)
