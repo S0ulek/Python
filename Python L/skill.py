@@ -196,11 +196,59 @@
     
     
 
+# kod = int(input("Компьютер заблокирован. Вернёшь скейт - скажу код разблокировки \nВведите код :"))
+
+# password = 222
+
+while True:
+     kod = int(input("Компьютер заблокирован. Вернёшь скейт - скажу код разблокировки \nВведите код :"))
+     if kod ==222:
+         print("Код верный." "\nЗавершаю работу...")
+         break
+
+
+
+# money = int(input("Введите бабосики : "))
+
+# qepiki = money 
+
+# while  qepiki <10000:
+#     kubik = int(input("че выпало? : "))
+  
+#     if kubik != 3:
+#         qepiki +=500
+#         print("Вы выйграли 500 гяпиков!" )
+
+#     elif kubik ==3:
+#         qepiki -= qepiki
+#         print ("Вы банкрот!")
+#         break
+
+# print ("Игра окончена.", "\nИтого гяпиков: ",qepiki)
+
+
+
+# count = 10
+# while True:
+#     if count == 0:
+#         print('Время вышло!')
+#         break
+#     else:
+#         print(count)
+#         count -= 1
+
+# while True:
+#     rabota = int(input("Продолжаем работать? 1/0:"))
+#     if rabota ==0:
+#         print("Приложение закрываеться...", "\nРабота завершена.")
+#         break
+
+   
+
+    
     
         
     
     
 
 
-
-print(res)
