@@ -200,11 +200,11 @@
 
 # password = 222
 
-while True:
-     kod = int(input("Компьютер заблокирован. Вернёшь скейт - скажу код разблокировки \nВведите код :"))
-     if kod ==222:
-         print("Код верный." "\nЗавершаю работу...")
-         break
+# while True:
+#      kod = int(input("Компьютер заблокирован. Вернёшь скейт - скажу код разблокировки \nВведите код :"))
+#      if kod ==222:
+#          print("Код верный." "\nЗавершаю работу...")
+#          break
 
 
 
@@ -243,6 +243,29 @@ while True:
 #         print("Приложение закрываеться...", "\nРабота завершена.")
 #         break
 
+
+
+
+# count = int(input("Сколько раз поовторить? :"))
+
+# proger = 0
+
+# while proger < count:
+#     print("я -Программист!")
+#     proger +=1
+
+
+bags = int(input("skolka meskov?: "))
+
+totalweight= 0
+bagscount = 0
+
+while  bagscount < bags:
+    weight = int(input("ves meska?: "))
+    totalweight +=weight
+    bagscount +=1
+
+print("Obsi ves :", totalweight)
    
 
     
