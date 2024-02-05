@@ -255,17 +255,52 @@
 #     proger +=1
 
 
-bags = int(input("skolka meskov?: "))
+# bags = int(input("skolka meskov?: "))
 
-totalweight= 0
-bagscount = 0
+# totalweight= 0
+# bagscount = 0
 
-while  bagscount < bags:
-    weight = int(input("ves meska?: "))
-    totalweight +=weight
-    bagscount +=1
+# while  bagscount < bags:
+#     weight = int(input("ves meska?: "))
+#     totalweight +=weight
+#     bagscount +=1
 
-print("Obsi ves :", totalweight)
+# print("Obsi ves :", totalweight)
+
+
+# num = int(input("Введите число : "))
+
+# nums = 0
+
+# while nums < num :
+#     nums +=1 
+#     print( nums, "**" , num,"=", nums ** num)
+    
+    
+# name = input("Введите свое имя : ")
+
+# borc = int(input("Введите сумму  задолжнности : "))
+
+# print(name," Ваша задолженность :", borc,"рублей")
+
+# money = 0
+
+# while money < borc:
+#     qepik = int(input("Сколько рублей внесете прямо сейчас, чтобы её погасить? : "))
+#     money +=qepik
+#     print("Маловато" , name ,  "давайте еще!")
+
+# print ("Отлично" ,name +"!",  " Вы погасили долг спасибо!")   
+
+
+
+num = int(input("Vvedite cislo : "))
+
+
+while num !=0:
+    nums =len(num)
+    print(nums)
+
    
 
     

@@ -1,5 +1,7 @@
-number = int(input("Введите число: "))
-while True:
-    answer = (number-1)**3
-    print(answer)
-    break
+num = int(input("Введите число : "))
+
+nums = 0
+
+while nums < num :
+     nums +=1 
+     print( nums, "** 3 =", nums ** 3)
