@@ -294,12 +294,26 @@
 
 
 
-num = int(input("Vvedite cislo : "))
+plus = 0
+minus = 0
+
+while True:
+    num= int(input("Введите оценку! : "))
+    if num > 0 :
+        plus += 1
+    elif num <0:
+        minus +=1
+    else:
+        print("Кол-во положительных оценок :" , plus, "\nКол-во отрицательных оценок :", minus)
+        break
+        
+
+     
 
 
-while num !=0:
-    nums =len(num)
-    print(nums)
+    
+    
+    
 
    
 
