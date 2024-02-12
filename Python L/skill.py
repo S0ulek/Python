@@ -294,21 +294,53 @@
 
 
 
-plus = 0
-minus = 0
+# plus = 0
+# minus = 0
 
-while True:
-    num= int(input("Введите оценку! : "))
-    if num > 0 :
-        plus += 1
-    elif num <0:
-        minus +=1
-    else:
-        print("Кол-во положительных оценок :" , plus, "\nКол-во отрицательных оценок :", minus)
-        break
+# while True:
+#     num= int(input("Введите оценку! : "))
+#     if num > 0 :
+#         plus += 1
+#     elif num <0:
+#         minus +=1
+#     else:
+#         print("Кол-во положительных оценок :" , plus, "\nКол-во отрицательных оценок :", minus)
+#         break
         
 
      
+print ("Начался 8-часовой рабочий день")
+
+hour = 0
+task = 0
+wife = False
+
+while hour<=7:
+  hour+=1
+  print(hour, "час")
+  time = int(input("Сколько задач решит Максим? : "))
+  task +=time
+  wifi = int(input("Звонит жена. Взять трубку? (1-да, 0-нет) : "))
+  if wifi >0:
+    wife = True
+
+print("Рабочий день закончен. выполнено задач :",task)
+
+if wife:
+  print("Нужно в магазин зайти")
+  
+
+
+  
+
+
+
+
+  
+
+
+  
+
 
 
     
