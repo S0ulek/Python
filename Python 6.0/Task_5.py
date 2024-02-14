@@ -1,17 +1,19 @@
-timer = 8
+timer = 0
 main_tasks = 0
-shop = 0
-hours = 1
+shop = False
+hours = 0
 print ("Начался 8 часовой рабочий день." )
-while timer != 0:
-    print(hours,"час")
+while timer < 8:
     hours += 1
-    timer -= 1
+    print(hours,"час")    
+    timer += 1
     task = int(input("Сколько задач решит Максим?"))    
     main_tasks += task
     call = int(input("Звонит жена. Взять трубку?(1-да/0-нет)"))
-    shop += call
+    if call == 1:
+        shop = True
 print("Рабочий день закончился. Всего выполнено задач:",main_tasks )
-if shop != 0:
+if shop:
     print("Нужно зайти в магазин")
+    
 

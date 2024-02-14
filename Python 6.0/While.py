@@ -1,6 +1,8 @@
-work = int(input("Продолжаем работать?1/0: "))
-while True:
-    work = int(input("Продолжаем работать?1/0: "))
-    if work == 0:
-     break        
-print("Приложение закрывается","\nРабота завершена.")
+x = int(input("Вклад в банк:"))
+p = (x/10)-(x%1)
+y = 0
+year = 0
+while y < 6000:
+    y += p
+    year += 1
+print ("Прошло",year,"лет")

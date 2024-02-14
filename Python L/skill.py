@@ -309,25 +309,40 @@
         
 
      
-print ("Начался 8-часовой рабочий день")
+# print ("Начался 8-часовой рабочий день")
 
-hour = 0
-task = 0
-wife = False
+# hour = 0
+# task = 0
+# wife = False
 
-while hour<=7:
-  hour+=1
-  print(hour, "час")
-  time = int(input("Сколько задач решит Максим? : "))
-  task +=time
-  wifi = int(input("Звонит жена. Взять трубку? (1-да, 0-нет) : "))
-  if wifi >0:
-    wife = True
+# while hour<=7:
+#   hour+=1
+#   print(hour, "час")
+#   time = int(input("Сколько задач решит Максим? : "))
+#   task +=time
+#   wifi = int(input("Звонит жена. Взять трубку? (1-да, 0-нет) : "))
+#   if wifi >0:
+#     wife = True
 
-print("Рабочий день закончен. выполнено задач :",task)
+# print("Рабочий день закончен. выполнено задач :",task)
 
-if wife:
-  print("Нужно в магазин зайти")
+# if wife:
+#   print("Нужно в магазин зайти")
+
+vklad = int(input("Укажите ваш вклад? :"))
+y = 6000
+scet = 0
+years = 0
+
+while scet < y:
+    scet +=vklad
+    years +=1
+    scet += vklad%10
+
+print(years,scet)
+    
+
+
   
 
 
