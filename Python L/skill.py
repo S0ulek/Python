@@ -329,17 +329,75 @@
 # if wife:
 #   print("Нужно в магазин зайти")
 
-vklad = int(input("Укажите ваш вклад? :"))
-y = 6000
-scet = 0
-years = 0
+# vklad = int(input("Укажите ваш вклад? :"))
+# y = 6000
+# scet = 0
+# years = 0
 
-while scet < y:
-    scet +=vklad
-    years +=1
-    scet += vklad%10
+# while scet < y:
+#     scet +=vklad
+#     years +=1
+#     scet += vklad%10
+#     scet //10
 
-print(years,scet)
+# print(years,scet)
+
+
+
+
+# win = 7
+# trying = 0
+
+# while True:
+#     trying +=1
+#     num = int(input("Введите число :"))
+#     if num < 7:
+#         print("Число меньше чем нужно. Попробуйте еще раз!")
+#     elif num >7:
+#         print ( "Число больше чем нужно. Попробуте еще раз!")
+#     else:
+#         print("Вы угадали! число попыток:", trying)
+#         break
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+num =101
+num2 =0
+
+tryng = 0
+
+while tryng <7:
+    nums= (num+num2)//(2)
+    tryng +=1
+    print("Твое число равно, меньше или больше, чем число",nums,"?")
+    ask=int(input())
+    if ask ==1:
+        print("Я гений!")
+        break
+    elif ask ==2:
+        num =nums
+
+    elif ask ==3:
+        num2=nums
+    
+
+
+
+
+      
+    
+
+
     
 
 
