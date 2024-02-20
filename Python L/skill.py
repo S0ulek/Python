@@ -371,28 +371,61 @@
 
 
 
-num =101
-num2 =0
+# num =101
+# num2 =0
 
-tryng = 0
+# tryng = 0
 
-while tryng <7:
-    nums= (num+num2)//(2)
-    tryng +=1
-    print("Твое число равно, меньше или больше, чем число",nums,"?")
-    ask=int(input())
-    if ask ==1:
-        print("Я гений!")
-        break
-    elif ask ==2:
-        num =nums
+# while tryng <7:
+#     nums= (num+num2)//(2)
+#     tryng +=1
+#     print("Твое число равно, меньше или больше, чем число",nums,"?")
+#     ask=int(input())
+#     if ask ==1:
+#         print("Я гений!")
+#         break
+#     elif ask ==2:
+#         num =nums
 
-    elif ask ==3:
-        num2=nums
+#     elif ask ==3:
+#         num2=nums
     
 
 
 
+# dolg = int(input("Введите числа :"))
+# doljniki = 0
+
+# for pepa in range(dolg):
+#     if dolg /2 and dolg > 0:
+#         doljniki +=1
+
+
+# print (" кол-во говнюков :",doljniki )        
+
+
+# doljniki = 0
+
+
+# for dolg in range(10):
+#     ask = int(input("Введите число :"))
+#     if ask % 2 == 0 and ask >0:
+#         doljniki +=1
+    
+# print("Кол-во Должников -",doljniki)
+
+
+month = 0
+money = 0
+
+for boss in range (0,12):
+    month +=1
+    print("месяц",month)
+    zp = int(input("Введите зарплату за этот месяц : "))
+    money +=zp
+
+
+print("Средняя зарплата за год :", money //12)
 
       
     
