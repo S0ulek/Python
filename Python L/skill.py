@@ -415,17 +415,37 @@
 # print("Кол-во Должников -",doljniki)
 
 
-month = 0
-money = 0
+# month = 0
+# money = 0
 
-for boss in range (0,12):
-    month +=1
-    print("месяц",month)
-    zp = int(input("Введите зарплату за этот месяц : "))
-    money +=zp
+# for boss in range (0,12):
+#     month +=1
+#     print("месяц",month)
+#     zp = int(input("Введите зарплату за этот месяц : "))
+#     money +=zp
 
 
-print("Средняя зарплата за год :", money //12)
+# print("Средняя зарплата за год :", money //12)
+
+
+
+
+fakt = int(input("Vvedite cislo : "))
+umnoj = 1
+umnoj2 = 1
+
+
+for jopa in range(1,fakt ):
+    umnoj2+=1
+    umnoj *= umnoj2
+    
+    
+    
+  
+    
+print(umnoj)    
+    
+
 
       
     
