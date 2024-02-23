@@ -6,6 +6,6 @@ year = 0
 while deposit < total:    
     deposit += (deposit*(percent*0.01))
     year += 1      
-    #deposit = int(deposit) 
+    deposit = int(deposit) 
 print ("Прошло",year,"лет")
 print(deposit)

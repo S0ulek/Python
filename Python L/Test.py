@@ -33,12 +33,14 @@
 
 
 
-weather = int(input("Сколько градусов ? :"))
-step = 0
-while weather >15:
-    step+=20
-    weather -= 2
-    if weather <=15:
-     break
-    step+=10
-print("Пройдено шагов" ,step)
+# weather = int(input("Сколько градусов ? :"))
+# step = 0
+# while weather >15:
+#     step+=20
+#     weather -= 2
+#     if weather <=15:
+#      break
+#     step+=10
+# print("Пройдено шагов" ,step)
+
+

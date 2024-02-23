@@ -1,5 +1,4 @@
 middle_salary = 0
-test = 0
 for months in range (0, 12):
     salary = int(input("Введите зарплату за этот месяц:" ))
     middle_salary += salary

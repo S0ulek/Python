@@ -1,8 +1,6 @@
 max =101
 min =0
-
 trying = 0
-
 while trying <7:
     N= (max+min)//(2)
     trying +=1
