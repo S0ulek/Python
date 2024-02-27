@@ -430,23 +430,51 @@
 
 
 
-fakt = int(input("Vvedite cislo : "))
-umnoj = 1
-umnoj2 = 1
+# fakt = int(input("Vvedite cislo : "))
+# umnoj = 1
+# umnoj2 = 1
 
 
-for jopa in range(1,fakt ):
-    umnoj2+=1
-    umnoj *= umnoj2
+# for jopa in range(1,fakt ):
+#     umnoj2+=1
+#     umnoj *= umnoj2
     
     
     
   
     
-print(umnoj)    
+# print(umnoj)    
     
 
+student = int(input("Сколько в классе человек? :"))
+student_num = 0
+nice = 0
+good = 0
+not_bad = 0
 
+
+
+
+for study in range(student):
+    student_num +=1
+    print("Ученик номер",student_num,"Получил оценку :")
+    otsenka = int(input(""))
+    if otsenka ==5:
+        nice+=1
+    elif otsenka ==4:
+        good+=1
+    elif otsenka ==3:
+        not_bad +=1
+
+if nice > good and nice > not_bad:
+    print("Сегодня больше Отличников!")
+elif good > nice and good > not_bad:
+    print("Сегодня больше Хорошистов!")
+else:
+    print("Сегодня больше Троечников...")
+
+
+    
       
     
 
