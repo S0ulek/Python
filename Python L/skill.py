@@ -446,32 +446,36 @@
 # print(umnoj)    
     
 
-student = int(input("Сколько в классе человек? :"))
-student_num = 0
-nice = 0
-good = 0
-not_bad = 0
+# student = int(input("Сколько в классе человек? :"))
+# student_num = 0
+# nice = 0
+# good = 0
+# not_bad = 0
 
 
 
 
-for study in range(student):
-    student_num +=1
-    print("Ученик номер",student_num,"Получил оценку :")
-    otsenka = int(input(""))
-    if otsenka ==5:
-        nice+=1
-    elif otsenka ==4:
-        good+=1
-    elif otsenka ==3:
-        not_bad +=1
+# for study in range(student):
+#     student_num +=1
+#     print("Ученик номер",student_num,"Получил оценку :")
+#     otsenka = int(input(""))
+#     if otsenka ==5:
+#         nice+=1
+#     elif otsenka ==4:
+#         good+=1
+#     elif otsenka ==3:
+#         not_bad +=1
 
-if nice > good and nice > not_bad:
-    print("Сегодня больше Отличников!")
-elif good > nice and good > not_bad:
-    print("Сегодня больше Хорошистов!")
-else:
-    print("Сегодня больше Троечников...")
+
+
+
+
+# if nice > good and nice > not_bad:
+#     print("Сегодня больше Отличников!")
+# elif good > nice and good > not_bad:
+#     print("Сегодня больше Хорошистов!")
+# else:
+#     print("Сегодня больше Троечников...")
 
 
     
@@ -481,13 +485,53 @@ else:
 
     
 
+# a= int(input(" Vvedite cislo nomer 1 :"))
+# b= int(input(" Vvedite cislo nomer 2 :"))
+# c = 0
+# d = 0
 
-  
+# for zet in range (a,b+1):
+    
+#     if zet % 3 == 0:
+#         c+=zet
+#         d+=1
+
+# print(c/d)
 
 
-  
+# a=int(input("Vvedite cislo :"))
 
 
+# for x in range (1,a+1):
+#     g=a%10
+#     b=a//10
+    
+# if b*g*3 == a:
+#     print (a)
+# else :
+#     print ("Cislo ne verno")
+
+
+
+
+
+
+for x in range (10,100):
+    
+    g=x%10
+    b=x//10
+    if b*g*3 == x:
+     print (x)
+else :
+    None
+    
+
+
+
+
+
+
+    
 
 
   
