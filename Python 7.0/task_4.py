@@ -18,4 +18,4 @@ if normal < excellent > good:
 elif excellent < good > normal:
     print ("Сегодня больше хорошистов")
 elif excellent < normal > good:
-    print("Сегодня больше норм")
+    print("Сегодня больше троечников")
