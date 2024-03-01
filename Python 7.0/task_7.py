@@ -1,13 +1,13 @@
 count = int(input("Введите число карточек:"))
-x = 0
+counter = 0
 sum = 0
-for card in range (1, count+1):
-    x += 1
-    sum += card
-    while x != 1:
-        cart = int(input("Введите номер карты:"))
-        x -= 1
-        sum -= cart
+for card_num in range (1, count+1):
+    counter += 1
+    sum += card_num
+    if counter != 1:
+        known_card = int(input("Введите номер карты:"))
+        counter -= 1
+        sum -= known_card
 print("Номер пропавшей карты:",sum)
 
    
