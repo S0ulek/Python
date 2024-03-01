@@ -3,9 +3,9 @@ normal = 0
 good = 0
 excellent = 0
 stud_num = 0
-for rating in range(students):
+for rating in range(1,students+1):
     stud_num += 1
-    print ("Какую оценку получил ученик номер", stud_num)
+    print ("Какую оценку получил ученик номер", rating)
     r = int(input())
     if r == 3:
         normal += 1

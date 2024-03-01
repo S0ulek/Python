@@ -516,16 +516,34 @@
 
 
 
-for x in range (10,100):
+# for x in range (10,100):
     
-    g=x%10
-    b=x//10
-    if b*g*3 == x:
-     print (x)
-else :
-    None
+#     g=x%10
+#     b=x//10
+#     if b*g*3 == x:
+#      print (x)
+# else :
+#     None
+
+
+
+a = int(input("Vvedite kolicestvo :"))
+
+x=0
+y=0
+m=1
+
+
+
+for i in range(1,a):
+    b = int(input("Vvedite nomer ostavsiysya kartocki :"))
+    x+=b
+    y+=i
     
 
+
+    
+print(y)
 
 
 
