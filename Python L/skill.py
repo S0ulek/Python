@@ -527,26 +527,28 @@
 
 
 
-a = int(input("Vvedite kolicestvo :"))
+# a = 8
+# b = 5
+# c = 3
 
-x=0
-y=0
-m=1
+# d = (a / (b + c) - a) / c
 
-
-
-for i in range(1,a):
-    b = int(input("Vvedite nomer ostavsiysya kartocki :"))
-    x+=b
-    y+=i
-    
-
-
-    
-print(y)
+# print(d)
 
 
 
+
+# bus = 5
+# metro = 3
+# result = ((6 + (10 - bus) ** 2) / (metro + 1)) + (132 / (2 + bus))
+# print(result)
+
+
+
+
+x= (-3 + (8**2-12) * 4**3**2)/ (2*18)
+
+print(x)
 
 
     
