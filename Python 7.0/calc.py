@@ -1,9 +1,6 @@
-a = 24/10
-b = 24//10
-c = 24%10
-
-print(a)
-print(b)
-print(c)
-
+user_num = int(input("Введите число:"))
+factorial = 1
+for fact in range (1, user_num+1): 
+    factorial *= fact 
+print("Факториал числа равен", factorial)  
 

@@ -554,13 +554,43 @@
 
 
 
-month = 0
+# month = 0
 
-for i in range (96,-1,-4):
-    month+=1
-    print (month,"Месяц",  "Гречки в запасе:", i )
+# for i in range (96,-1,-4):
+#     month+=1
+#     print (month,"Месяц",  "Гречки в запасе:", i )
     
+# a=int(input("Кол-во должников : "))
 
+# debt= 0
+
+# for i in range (0,a+1,5):
+#     print("Должник с номером",i)
+#     c=int(input("Сколько должны? :"))
+#     debt += c
+
+# print("Общая сумма долга равна :", debt)
+
+
+reverse_timer= int(input("Введите время для подогрева :"))
+
+
+
+for i in range(reverse_timer, -1, -1):
+    b=int(input("Хотите остановить разогрев? 1/0 :"))
+    if b == 1:
+        print("Ваша еда готова можете забрать!", "\nТаймер был прерван на",i,"Секунде")
+        break
+    print (i)
+    
+if i == 0 :
+   print("Ваша еда готова,осторожно! горячо!")
+
+
+
+
+
+    
 
   
 
