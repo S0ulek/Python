@@ -572,29 +572,52 @@
 # print("Общая сумма долга равна :", debt)
 
 
-reverse_timer= int(input("Введите время для подогрева :"))
+# reverse_timer= int(input("Введите время для подогрева :"))
 
 
 
-for i in range(reverse_timer, -1, -1):
-    b=int(input("Хотите остановить разогрев? 1/0 :"))
-    if b == 1:
-        print("Ваша еда готова можете забрать!", "\nТаймер был прерван на",i,"Секунде")
-        break
-    print (i)
+# for i in range(reverse_timer, -1, -1):
+#     b=int(input("Хотите остановить разогрев? 1/0 :"))
+#     if b == 1:
+#         print("Ваша еда готова можете забрать!", "\nТаймер был прерван на",i,"Секунде")
+#         break
+#     print (i)
     
-if i == 0 :
-   print("Ваша еда готова,осторожно! горячо!")
+# if i == 0 :
+#    print("Ваша еда готова,осторожно! горячо!")
 
 
 
 
+# a= int(input(" Vvedite cislo nomer 1 :"))
+# b= int(input(" Vvedite cislo nomer 2 :"))
+# v =int(input(" кратное :"))
+# c = 0
+# d = 0
 
+
+# for zet in range (a,b):
     
+#     if zet % v == 0:
+#         c+=zet
+#         d+=1
 
-  
+# print(c/d) 
+
+a= int(input("Vvedite nacalo otrezka :"))
+
+b= int(input("Vvedite konec otrezka :"))
+
+c=int(input("Vvedite shaq :"))
+
+x = 0
+
+for i in range(b,a,c):
+    x += i
+    y = x**3 + 2*x**2 - 4*x + 1
 
 
+print(x)
   
 
 
