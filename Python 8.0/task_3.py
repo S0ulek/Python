@@ -5,5 +5,5 @@ for interval in range (reverse_timer,0, -5):
     if check:
         print("Прошло", interval, "секунд","\nВаша еда готова можете забрать.")
         break
-if interval:
+else:
         print("Ваша еда готова, осторожно горячо.")  
