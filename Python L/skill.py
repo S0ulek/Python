@@ -604,21 +604,41 @@
 
 # print(c/d) 
 
-a= int(input("Vvedite nacalo otrezka :"))
+# a= int(input("Vvedite nacalo otrezka :"))
 
-b= int(input("Vvedite konec otrezka :"))
+# b= int(input("Vvedite konec otrezka :"))
 
-c=int(input("Vvedite shaq :"))
-
-x = 0
-
-for i in range(b,a,c):
-    x += i
-    y = x**3 + 2*x**2 - 4*x + 1
+# c=int(input("Vvedite shaq :"))
+ 
 
 
-print(x)
-  
+
+# k=0
+# y =0
+# for i in range(b,a-1,c):
+#     k=i
+#     y = k**3 + 2*k**2 - 4*k + 1
+#     print("В точке",i,"Функция равна :",y)
+
+
+a= int(input("Введите стипендию :"))
+b=int(input("Введите расходы :"))
+c=0
+x=b
+z=0
+
+
+for i in range(1,11):
+    x=b+c
+    d=x//100*3
+    c+=d
+    z+=x-a
+    
+    print (i,"mesyac trati",x,"Ne xvataet",round(z,2))
+
+
+        
+        
 
 
 
