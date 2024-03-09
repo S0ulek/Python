@@ -1,6 +1,9 @@
-user_num = int(input("Введите число:"))
-factorial = 1
-for fact in range (1, user_num+1): 
-    factorial *= fact 
-print("Факториал числа равен", factorial)  
+a = 20//4
+b = 20/4
+c = 20%4
+
+
+print(a)
+print(b)
+print(c)
 

@@ -6,7 +6,7 @@ for number in range(n):
     elem = ((-1)**number * 1/(2**number))
     elem_summ += elem
     print("elem =",elem)  
-    print("Сумма равна:",elem_summ)
+print("Сумма равна:",elem_summ)
     
 
     
