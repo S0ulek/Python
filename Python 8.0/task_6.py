@@ -1,13 +1,9 @@
 educational_grant = int(input("Введите степендию:"))
 money_spent = int(input("Введите ежемесячный расход:"))
-every_months = money_spent
 need_money = 0
 for month in range (1,11):
-    left_money = money_spent - educational_grant
-    every_months += every_months/100*3 
-    need_money += left_money+(every_months/100*3)
-
-    print (month,every_months, need_money)
-
-
+    need_money += money_spent - educational_grant
+    print(month,"месяц траты",round(money_spent, 2),"не хватает",round(need_money, 2))
+    money_spent *= 1.03   
+print("Нужно попросить",round(need_money, 2),"рублей")
     
