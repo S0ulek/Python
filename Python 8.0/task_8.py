@@ -1,19 +1,23 @@
-boys = int(input("Введите число мальчиков:"))
-girls = int(input("Введите число девочек:"))
-people = boys + girls
-sitting = ""
+boys = int(input("Введите кол-во мальчиков: "))
+girls = int(input("Введите кол-во девочек: "))
+seating = ""
 
-for place in range (0,people, 2):
-  if people%2>0:
-   print("Нет Решения")
-   break
-  boys -= 1
-  girls -= 1
-  if boys != 0:
-   sitting += "B"
-   if girls != 0:
-    sitting += "G"
-print (sitting)   
+if boys > 2 * girls or girls > 2 * boys:
+    print("Нет решения")
+elif boys >= girls:
+   people = boys - girls
+   for bgb in range (people):
+       seating += "BGB"
+   for bg in range(girls - people):
+       seating += "BG"
+else:
+    people = girls - boys
+    for gbg in range (people):
+       seating += "GBG"
+    for gb in range (boys - people):
+       seating += "Gb"
+print(seating)
+
 
    
 
