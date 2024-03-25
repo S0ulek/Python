@@ -630,7 +630,7 @@ z=0
 
 for i in range(1,11):
     x=b+c
-    d=x//100*3
+    d=x/100*3
     c+=d
     z+=x-a
     
