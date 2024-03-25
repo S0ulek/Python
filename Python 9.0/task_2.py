@@ -1,6 +1,6 @@
 text = input("Введите текст: ")
 star = "*"
-position = 0
+position = 1
 
 for symbol in text:
     if symbol != star:
