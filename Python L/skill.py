@@ -621,30 +621,36 @@
 #     print("В точке",i,"Функция равна :",y)
 
 
-a= int(input("Введите стипендию :"))
-b=int(input("Введите расходы :"))
-c=0
-x=b
-z=0
+# a= int(input("Введите стипендию :"))
+# b=int(input("Введите расходы :"))
+# c=0
+# x=b
+# z=0
 
 
-for i in range(1,11):
-    x=b+c
-    d=x/100*3
-    c+=d
-    z+=x-a
+# for i in range(1,11):
+#     x=b+c
+#     d=x/100*3
+#     c+=d
+#     z+=x-a
     
-    print (i,"mesyac trati",x,"Ne xvataet",round(z,2))
+#     print (i,"mesyac trati",x,"Ne xvataet",round(z,2))
 
 
         
         
 
+a = int(input("Vvedite N :"))
+s=0
 
 
+for i in range(0,a):
+    elem = ((-1) ** i) * (1/(2 ** i))
+    s+= elem
     
-    
-    
+
+print(s)
+
 
    
 
