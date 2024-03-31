@@ -5,6 +5,5 @@ for row in range(20):
        elif row == 9:
         print("-", end = "")
        else:
-         print(" ", end = "")
-         
+         print(" ", end = "")         
     print()
