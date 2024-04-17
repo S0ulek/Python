@@ -1,11 +1,12 @@
-width = int(input("Введите ширину: " ))
-height = int(input("Введите высоту: "))
+width = int(input("Введите ширину:"))
+height = int(input("Введите длину:"))
 
-for up in range (height):
-    for side in range (width):
-      if up == 0 or up == height:
-        print("-", end="")
-      elif side == 0 or side == width:
-        print("|", end="")
-    else:
-       print()
+for y in range(height):
+    for x in range(width):
+        if y == 0 or y == height -1:
+            print('-', end='')
+        elif x == 0 or x == width - 1:
+            print('|', end='')
+        else:
+            print(' ', end='')
+    print()
