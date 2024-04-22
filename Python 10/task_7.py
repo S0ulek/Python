@@ -1,8 +1,9 @@
 height = int(input("Введите высоту пирамиды: "))
-
-for i in range(height):
-    for j in range(height - i - 1):
+pyr = 1
+for num in range(height):
+    for empty in range(height - num - 1):
         print(" ", end="")
-    for k in range(2 * i + 1):
-        print("#", end="")
+    for fill in range(num + 1):
+        print(pyr, end=" ")
+        pyr += 2        
     print()

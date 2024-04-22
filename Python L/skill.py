@@ -640,22 +640,27 @@
         
         
 
-a = int(input("Vvedite N :"))
-s=0
+# a = int(input("Vvedite N :"))
+# s=0
 
 
-for i in range(0,a):
-    elem = ((-1) ** i) * (1/(2 ** i))
-    s+= elem
+# for i in range(0,a):
+#     elem = ((-1) ** i) * (1/(2 ** i))
+#     s+= elem
     
 
-print(s)
+# print(s)
 
+b=int(input("Vvedite kolicestvo malcikov :"))
 
+g=int(input("Vvedite kolicestvo devocek :"))
+
+a = b+g
    
 
-    
-    
+for i in range(a+1):
+    if b>g:
+            
         
     
     
