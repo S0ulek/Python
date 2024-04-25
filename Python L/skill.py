@@ -651,18 +651,33 @@
 
 # print(s)
 
-b=int(input("Vvedite kolicestvo malcikov :"))
 
-g=int(input("Vvedite kolicestvo devocek :"))
-
-a = b+g
-   
-
-for i in range(a+1):
-    if b>g:
             
         
-    
+
+
+# pirati=0
+
+# for i in range(10):
+#     word=input("Введите слово :")
+  
+#     if word == "Karamba" or word == "karamba":
+#         pirati +=1
+
+# print("Stolko piratov na korable",pirati)
+
+
+
+word = input("Введие строчку для проверки :")
+
+star = 0
+
+for i in word:
+    star +=1
+    if i =="*":
+        print("Символ * стоит на позиции:",star)
+  
+               
     
 
 
