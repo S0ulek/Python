@@ -1,14 +1,12 @@
-height = float(input("Ваш рост: "))
-weight = float(input("Ваш вес: "))
+user_weight = float(input("Вес пациента: "))
+user_height = float(input("Рост пациента: "))
 
-bmi = weight / height ** 2
-print ("Индекс массы вашего тела:", round(bmi, 2))
-
-if bmi < 18.5:
-    print("У вас недостаточная масса тела")
-elif bmi < 25:
-    print("У вас нормальная масса тела")
-elif bmi < 30:
-    print("У вас избыточный вес")
+result = round(user_weight/user_height**2, 2)
+if result < 18.5:
+    print("Недобор")
+elif result < 25:
+    print("Норма")
+elif result < 30:
+    print("Избыток")
 else:
-    print("У вас ожирение")
+    print("Ожирение")

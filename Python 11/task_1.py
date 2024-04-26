@@ -1,4 +1,4 @@
-money = int(input("Сколько купленно:"))
+money = int(input("Сколько купленно: "))
 
 dollar = money*1.25
 rub = dollar*60.87
