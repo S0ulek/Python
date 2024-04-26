@@ -1,8 +1,6 @@
 def greeting():
  print('Привет!')
- print('Добро пожаловать!')
-
- 
+ print('Добро пожаловать!') 
 
 while True:
  a = input('Зайдёте? Да/Нет: ')

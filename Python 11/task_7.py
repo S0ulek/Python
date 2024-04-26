@@ -1,6 +1,6 @@
-num1 = int(input("Введите первое число: "))
-num2 = int(input("Введите второе число: "))
+fisrt_num = int(input("Введите первое число: "))
+sec_num = int(input("Введите второе число: "))
 
-result = ((num1 + num2) + abs(num1 - num2)) // 2
+res = ((fisrt_num + sec_num) + abs(fisrt_num - sec_num)) // 2
 
-print("Наибольшее число:", result)
+print("Наибольшее число:", res)
