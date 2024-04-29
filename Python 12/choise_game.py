@@ -8,6 +8,8 @@ def mainMenu():
         bad()
     else:
         print("Ошибка ввода. Нужна ввести 1 или 2.")
+        mainMenu()
+
 
 def good():
     print("Всё хорошо.")
