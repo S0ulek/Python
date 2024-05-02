@@ -1,5 +1,3 @@
-import math
-
 num = int(input("Введите число: "))
 
 def summa_n(num):

@@ -14,6 +14,7 @@ def Calc():
         min_n(number)
     else:
         print("Такой функции не существует.")
+        print()
         Calc()
     
 
