@@ -1,11 +1,11 @@
 
-start_amplitude = float(input("Введите начальную амплитуду: "))
-stop_amplitude = float(input("Введите амплитуду остановки: "))
+start = float(input("Введите начальную амплитуду: "))
+end = float(input("Введите амплитуду остановки: "))
    
 
 swings = 0
-while start_amplitude > stop_amplitude:
-    start_amplitude *= 0.916
+while start > end:
+    start *= 0.916
     swings += 1
 
-print(f"Маятник считается остановившимся через {swings} колебаний.")
+print("Маятник считается остановившимся через", swings,"колебаний")
