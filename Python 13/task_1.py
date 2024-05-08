@@ -1,10 +1,16 @@
-start_number = float(input("Введите число: "))
-count = 0
-while start_number >= 10:
-    count += 1
-    start_number /= 10
+def convert_to_float_format(x):
+    b = 0
+    while x >= 10:
+        x /= 10
+        b += 1
+    while x < 1:
+        x *= 10
+        b -= 1
+    return x, b
 
-if start_number < 10:
-    print(f"Формат плавающей точки: x = {start_number} * 10 ** {count}")
+x = float(input("Введите положительное число: "))
+if x <= 0:
+    print("Число должно быть положительным.")
 else:
-    print(f"Формат плавающей точки: x = {start_number/10} * 10 ** {count+1}")
+    a, b = convert_to_float_format(x)
+    print(f"Формат плавающей точки: x = {a} * 10 ** {b}")
